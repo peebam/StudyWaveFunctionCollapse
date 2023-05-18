@@ -1,0 +1,21 @@
+{
+  "name": "wavefunctioncollapse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./sketch/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "compile-watch": "tsc --watch",
+    "start": "browser-sync start --server -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/p5": "^1.5.0",
+    "browser-sync": "^2.28.3",
+    "p5": "^1.6.0"
+  }
+}
